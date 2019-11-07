@@ -102,5 +102,17 @@ int yyerror()
 	return 0;
 }
  */ 
-     
+ //Input
+  /*
+  STAB	START	1000
+SAMP	LDA		ALPHA
+		ADD		INCR
+		SUB		ONE
+		STA		BETA
+ONE 	WORD 1
+ALPHA 	WORD 8
+BETA	RESW 1
+INCR	WORD 1
+		END		SAMP
+		*/
 
